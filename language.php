@@ -59,13 +59,13 @@ Ev. Kirche Sulgen
 </span>");
 define (COMPANIE, "SIAM | Am Gihl 6 | 9220 Bischofszell | Tel: +41 (0)79 417 5734 </br></br></br>Copyright by Cazan Georgian Ovidiu &#169; 2010. All rights reserved.");
 
-//inceput factura
+//bill please
 
 define (TITLU_FACTURA, "BESTELLUNG");
 define (LEI, "CHF");
 define (VALOARE_TVA, "0.076");     //cu . in loc de virgula. valoarea ce va fi folosita la calculul sumei
 define (CONDITII, "LIEFERANT");
-define (VALOARE_CONDITII, "NONE");   //ce va aparea in dreapta
+define (VALOARE_CONDITII, "NONE");   //right sidebar
 define (SERVICIU, "VERSAND PER");
 define (VALOARE_SERVICIU, "Schweizerische Post");  //ce va aparea in dreapta
 define (VALOARE_TRANSPORT, "0");
@@ -94,9 +94,11 @@ $concerte[3]['text'] = "Arbon/19.30 Uhr/Schloss Arbon";
 $concerte[4]['data'] = "15.06.10";
 $concerte[4]['text'] = "Bischofszell/19.30 Uhr/Kath. Kirche St.Pelagius";
 $concerte[5]['data'] = "17.06.10";
-$concerte[5]['text'] = "Amriswil/19.30 Uhr/Kirchgemeindehaus Amriswil";$concerte[6]['data'] = "19.06.10";
+$concerte[5]['text'] = "Amriswil/19.30 Uhr/Kirchgemeindehaus Amriswil";
+$concerte[6]['data'] = "19.06.10";
 $concerte[6]['text'] = "Weinfelden/19.30 Uhr/Rathaus Weinfelden";
 $concerte[7]['data'] = "20.06.10";
-$concerte[7]['text'] = "Romanshorn/15.00 Uhr/Alte Kirche Romanshorn";$concerte[8]['data'] = "24.06.10";
+$concerte[7]['text'] = "Romanshorn/15.00 Uhr/Alte Kirche Romanshorn";
+$concerte[8]['data'] = "24.06.10";
 $concerte[8]['text'] = "Sulgen/19.30 Uhr/Ev. Kirche Sulgen";
 ?>
