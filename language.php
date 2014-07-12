@@ -42,7 +42,7 @@ define (VALOARE_TVA, "0.200");     //value added tax UK 20%
 define (CONDITII, "TERMS");
 define (VALOARE_CONDITII, "NONE");   //right sidebar
 define (SERVICIU, "SERVICE");
-define (VALOARE_SERVICIU, "ROYAL MAIL");  //ce va aparea in dreapta
+define (VALOARE_SERVICIU, "ROYAL MAIL");  
 define (VALOARE_TRANSPORT, "0");
 define (TOTAL_DE_PLATA, "SUM");
 define (NR_BILETE, "TICKETS NUMBER");
